@@ -21,13 +21,13 @@ public class CategoryController {
     }
     // end::get-aggregate-root[]
 
-    @GetMapping("/category/{id}")
+    @GetMapping("/categories/{id}")
     Category one(@PathVariable Long id) {
         return categoryRepository.findById(id)
                 .orElseThrow(() -> new CategoryNotFoundException(id));
     }
 
-    @GetMapping("/category/{id}/plan")
+    @GetMapping("/categories/{id}/plan")
     List<SuggestedEvent> categoryPlan(@PathVariable Long id) {
         Category category = one(id);
         return category.getSuggestedEvents();
