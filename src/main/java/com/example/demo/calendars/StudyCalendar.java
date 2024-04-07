@@ -3,8 +3,6 @@ package com.example.demo.calendars;
 import com.example.demo.categories.Category;
 import com.example.demo.events.SuggestedEvent;
 import com.example.demo.events.TargetEvent;
-import com.example.demo.repository.CalendarRepository;
-import com.example.demo.repository.CategoryRepository;
 import jakarta.persistence.Entity;
 
 import java.time.LocalDate;

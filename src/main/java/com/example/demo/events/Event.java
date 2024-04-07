@@ -10,7 +10,7 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 
 @Entity
-public abstract class Event implements CalendarEvent, Serializable {
+public abstract class Event implements Serializable {
     protected @Id @GeneratedValue(strategy = GenerationType.AUTO)
     Long id;
     protected String title;

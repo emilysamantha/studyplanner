@@ -1,4 +1,4 @@
-package com.example.demo.categorycontroller;
+package com.example.demo.controller.categorycontroller;
 
 
 import org.springframework.http.HttpStatus;

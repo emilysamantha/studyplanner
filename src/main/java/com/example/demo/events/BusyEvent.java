@@ -13,9 +13,4 @@ public class BusyEvent extends Event {
     }
 
     protected BusyEvent() {}
-
-    @Override
-    public void addToCalendar(Calendar calendar) {
-        calendar.add(this);
-    }
 }

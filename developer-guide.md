@@ -1,5 +1,14 @@
 # Developer Guide
 
+To run the application on localhost, navigate to `target` and run 
+```shell
+java -jar demo-0.0.1-SNAPSHOT.jar
+```
+
+Open `http://localhost:8080/calendars` on the browser to get the preloaded calendar.
+
+Open `http://localhost:8080/calendars/1/plan` on the browser to get the suggested study plan.
+
 ## Create a Subject
 
 ```shell

@@ -1,6 +1,5 @@
-package com.example.demo.eventcontroller;
+package com.example.demo.controller.eventcontroller;
 
-import com.example.demo.categories.Category;
 import com.example.demo.events.BusyEvent;
 import com.example.demo.events.Event;
 import com.example.demo.events.TargetEvent;

@@ -14,11 +14,6 @@ public class SuggestedEvent extends Event {
     }
 
     @Override
-    public void addToCalendar(Calendar calendar) {
-        calendar.add(this);
-    }
-
-    @Override
     public String getString() {
         return title + " (" + targetEvent.title + ") - " + date.toString() + " at " + time.toString() + " to " + time.plusHours(duration.getHour()).plusMinutes(duration.getMinute()).toString();
     }

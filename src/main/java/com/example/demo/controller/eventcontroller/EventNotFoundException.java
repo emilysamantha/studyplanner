@@ -1,4 +1,4 @@
-package com.example.demo.eventcontroller;
+package com.example.demo.controller.eventcontroller;
 
 public class EventNotFoundException extends RuntimeException {
     EventNotFoundException(Long id) {

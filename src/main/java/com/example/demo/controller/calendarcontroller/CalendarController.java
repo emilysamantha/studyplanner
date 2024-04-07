@@ -1,4 +1,4 @@
-package com.example.demo.calendarcontroller;
+package com.example.demo.controller.calendarcontroller;
 
 import com.example.demo.calendars.Calendar;
 import com.example.demo.events.SuggestedEvent;

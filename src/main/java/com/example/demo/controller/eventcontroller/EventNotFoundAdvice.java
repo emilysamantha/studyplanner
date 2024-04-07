@@ -1,4 +1,5 @@
-package com.example.demo.calendarcontroller;
+package com.example.demo.controller.eventcontroller;
+
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -7,11 +8,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ControllerAdvice
-public class CalendarNotFoundAdvice {
+public class EventNotFoundAdvice {
     @ResponseBody
-    @ExceptionHandler(CalendarNotFoundException.class)
+    @ExceptionHandler(EventNotFoundException.class)
     @ResponseStatus(HttpStatus.NOT_FOUND)
-    String calendarNotFoundHandler(CalendarNotFoundException ex) {
+    String categoryNotFoundHandler(EventNotFoundException ex) {
         return ex.getMessage();
     }
 }

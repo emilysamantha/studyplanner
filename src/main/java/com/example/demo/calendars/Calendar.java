@@ -4,8 +4,6 @@ import com.example.demo.categories.Category;
 import com.example.demo.events.Event;
 import com.example.demo.events.SuggestedEvent;
 import com.example.demo.events.TargetEvent;
-import com.example.demo.repository.CalendarRepository;
-import com.example.demo.repository.CategoryRepository;
 import jakarta.persistence.*;
 
 import java.io.Serializable;

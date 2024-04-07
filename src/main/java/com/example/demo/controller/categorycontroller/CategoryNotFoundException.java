@@ -1,4 +1,4 @@
-package com.example.demo.categorycontroller;
+package com.example.demo.controller.categorycontroller;
 
 public class CategoryNotFoundException extends RuntimeException {
     CategoryNotFoundException(Long id) {

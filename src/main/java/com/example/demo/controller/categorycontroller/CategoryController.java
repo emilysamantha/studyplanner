@@ -1,4 +1,4 @@
-package com.example.demo.categorycontroller;
+package com.example.demo.controller.categorycontroller;
 
 import com.example.demo.categories.Category;
 import com.example.demo.categories.Subject;

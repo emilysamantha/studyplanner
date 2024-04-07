@@ -1,4 +1,4 @@
-package com.example.demo.calendarcontroller;
+package com.example.demo.controller.calendarcontroller;
 
 public class CalendarNotFoundException extends RuntimeException {
     CalendarNotFoundException(Long id) {
