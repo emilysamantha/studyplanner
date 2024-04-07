@@ -1,6 +1,7 @@
 package com.example.demo.categorycontroller;
 
 import com.example.demo.categories.Category;
+import com.example.demo.categories.Subject;
 import com.example.demo.events.SuggestedEvent;
 import com.example.demo.repository.CategoryRepository;
 import org.springframework.web.bind.annotation.*;
@@ -36,9 +37,9 @@ public class CategoryController {
     // TODO - test posting new subjects
     // TODO - how to add target events
     // TODO - do training plan
-    @PostMapping("/categories")
-    Category newCategory(@RequestBody Category category) {
-        return categoryRepository.save(category);
+    @PostMapping("/categories/subject")
+    Category newCategory(@RequestBody Subject subject) {
+        return categoryRepository.save(subject);
     }
 
 }

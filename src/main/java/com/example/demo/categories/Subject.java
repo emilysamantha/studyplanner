@@ -13,6 +13,9 @@ public class Subject extends Category {
 
     @Override
     public int getPriority() {
-        return priority + targetEvents.size();
+        if (targetEvents != null) {
+            return priority + targetEvents.size();
+        }
+        return priority;
     }
 }
